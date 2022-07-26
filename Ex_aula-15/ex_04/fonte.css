@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Rosarivo');
+@import url('https://fonts.googleapis.com/css?family=Saira');
+@import url('https://fonts.googleapis.com/css2?family=Content&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Padauk');
+@import url('https://fonts.googleapis.com/css?family=Plaster');
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rouge Script');
+
+body{
+    width: 1200px;
+}
+
+.txt1{
+    font-family: 'Roboto'; font-size: 26px; 
+    text-align: end;
+}
+
+h2{
+    font-family: 'Roboto'; font-size: 36px;
+    color: #000000;
+}
+
+div{
+    text-align: right;
+}
+
+.vermelho{
+    font-family: 'Rokkitt'; font-size: 36px;
+    color: #EB2020;
+}
+
+.violeta{
+    font-family: 'Courier New', Courier, monospace; font-size: 36px;
+    color: #730AC6;
+}
+
+.verde_escuro{
+    font-family: 'Rosarivo'; font-size: 36px;
+    color: #0E8D58;
+}
+
+.verde_claro{
+    font-family: 'Saira'; font-size: 36px;
+    color: #659A77;
+}
+
+.laranja{
+    font-family: 'Content', cursive; font-size: 36px;
+    color: #FC5812;
+}
+
+.azul_escuro{
+    font-family: 'Padauk'; font-size: 36px;
+    color: #154EE0;
+}
+
+.preto{
+    font-family: 'Rouge Script'; font-size: 36px;
+    color: #000000;
+}
+
+.roxo{
+    font-family: 'Plaster'; font-size: 36px;
+    color: #840D87;
+}
+
+.laranja_escuro{
+    font-family: 'Kranky'; font-size: 36px;
+    color: #EF6C0C
+}

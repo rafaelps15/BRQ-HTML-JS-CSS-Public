@@ -1,0 +1,31 @@
+:root{
+    --primario: #da70d6;
+    --secundario: #0000FF;
+    --terciario: #FF4500;
+}
+
+.card1,
+.card2,
+.card3,
+.card4{
+    width: 150px;
+    height: 150px;
+}
+
+.card1{
+    background-color: var(--primario);
+}
+.card2{
+    background-color: var(--primario);
+}
+.card3{
+    background-color: var(--secundario);
+}
+.card4{
+    background-color: var(--terciario);
+}
+
+h1{
+    background-color: var(--terciario);
+    color: var(--secundario);
+}

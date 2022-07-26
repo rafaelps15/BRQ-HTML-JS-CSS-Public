@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista e formulários</title>
+</head>
+
+<!--Formulários-->
+<body>
+    <fieldset>
+
+        <legend>Cadastro de Cliente</legend>
+        
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="Nome" placeholder="Digite o primeiro nome">
+
+        <label for="nome">Sobrenome: </label>
+        <input type="text" id="sobrenome" name="Sobrenome" placeholder="Digite o sobrenome">
+        <br>
+
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data" name="data_nascimento">
+        <br>
+
+        <label for="endereço">Endereço: </label>
+        <input type="endereço" id="endereço" name="Endereço" placeholder="Digite o endereço">
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="Email" placeholder="Digite seu e-mail">
+        <br>
+        
+        <label for="senha">Senha:</label>
+        <input type="passowrd" id="senha" name="senha"placeholder="Ao menos 6 dígitos" minlength="6" maxlength="10" required>
+        <br>
+
+        <label for="repita_senha">Repita a senha:</label>
+        <input type="password" id="repita_senha" name="repita_senha" name="repita_senha" placeholder="Repita a senha acima" minlength="6" maxlength="10" required>
+        
+    </fieldset>
+
+    <fieldset>
+        <button type="submit">Cadastrar</button>
+    </fieldset>
+
+</body>

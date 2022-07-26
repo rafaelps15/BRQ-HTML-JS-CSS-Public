@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista e formulários</title>
+</head>
+<body>
+
+ <!--Formulários-->   
+<form enctype="multipart/form-data">
+
+    <fieldset>
+        
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="Nome" placeholder="Nome:">
+
+        <label for="nome">Sobrenome: </label>
+        <input type="text" id="sobrenome" name="Sobrenome" placeholder="Sobrenome">
+        <br>
+
+        <label for="enderec">Endereço: </label>
+        <input type="endereco" id="endereço" name="Endereço" placeholder="Endereço">
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+
+        Escolaridade:
+        <select id="escolaridade" name="escolaridade">
+            <option value="ensino médio" selected>Ensino Médio</option>
+            <option value="ensino fundamental">Ensino Fundamental</option>
+            <option value="ensino superior">Ensino Superior</option>
+        </select>
+        <br>
+
+        Trabalha atualmente?
+            <input type="radio" name="trabalho" id="trabalho" value="Trabalho">
+            <label for="ensino_medio">Sim</label>
+
+            <input type="radio" name="trabalho" id="trabalho" value="Trabalho">
+            <label for="ensino_medio">Não</label>
+            <br>
+
+            Cursos:<br>
+            <input type="checkbox" name="areas" id="informatica_basica" value="Informática básica">
+            <label for="informatica_basica">Informática básica</label>
+            
+            <input type="checkbox" name="areas" id="secretariado" value="Secretariado">
+            <label for="secretariado">Secretariado</label>
+
+            <input type="checkbox" name="areas" id="logica_programacao" value="Lógica de Programação">
+            <label for="logica_programacao">Lógica de Programação</label>
+
+            <input type="checkbox" name="areas" id="html_css" value="HTML e CSS">
+            <label for="html_css">HTML e CSS</label>
+
+            <input type="checkbox" name="areas" id="java_script" value="JavaScript">
+            <label for="java_script">JavaScript</label>
+
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>Pesquisa</legend>
+
+        Já fez viagem para o exterior?
+            <br>
+            <input type="radio" name="trabalho" id="trabalho" value="Trabalho">
+            <label for="ensino_medio">Sim</label>
+
+            <input type="radio" name="trabalho" id="trabalho" value="Trabalho">
+            <label for="ensino_medio">Não</label>
+            <br>
+
+            Quais continentes desperta mais interesse:<br>
+            <input type="checkbox" name="areas" id="america_sul" value="Ámerica do Sul">
+            <label for="america_sul">Ámerica do Sul</label>
+            
+            <input type="checkbox" name="areas" id="america_norte" value="Ámerica do Norte">
+            <label for="america_norte">Ámerica do Norte</label>
+
+            <input type="checkbox" name="areas" id="america_central" value="Ámerica Central">
+            <label for="america_central">Ámerica Central</label>
+
+            <input type="checkbox" name="areas" id="africa" value="África">
+            <label for="africa">África"</label>
+
+            <input type="checkbox" name="areas" id="asia" value="Ásia">
+            <label for="asia">Ásia</label>
+
+            <input type="checkbox" name="areas" id="europa" value="Europa">
+            <label for="europa">Europa</label>
+            <br>
+
+            <label for="paises">Cite ao menos 5 países que pretende conhecer:</label>
+            <br>
+            <input tyoe="number" id="paises" name="paises" >
+            <br>
+
+            <br>
+            Mensagem:<br>
+           <textarea></textarea>
+           <br>
+           
+           <button type="submit">Enviar</button>
+         </fieldset>
+
+        </fieldset>
+</body>
+</html>
